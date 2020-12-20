@@ -1,4 +1,5 @@
-alias c='cd ..'
+alias c='cd'
+alias ..='cd ..'
 alias l='ls -alh'
 alias gs='git status'
 alias gp='git pull'
