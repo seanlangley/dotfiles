@@ -5,3 +5,4 @@ Function .. {cd ..}
 Function gs {git status}
 Function ga {git add}
 Function gf {git fetch}
+remove-item alias:curl 
