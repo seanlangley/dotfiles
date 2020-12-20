@@ -6,4 +6,5 @@ alias gp='git pull'
 alias ga='git add'
 alias gc='git commit --verbose'
 alias home='cd ~'
-alias dt='cd ~/Desktop
+alias dt='cd ~/Desktop'
+alias gf='git fetch'
