@@ -1,3 +1,5 @@
+# For this script to work, make sure to set the windows script execution policy:
+# Set-ExecutionPolicy Unrestricted
 New-Alias -Name c -Value cd
 New-Alias -Name l -Value ls
 New-Alias -Name which -Value get-command
