@@ -9,4 +9,4 @@ alias home='cd ~'
 alias dt='cd ~/Desktop'
 alias gf='git fetch'
 alias v='vim'
-PS1="\e[31m \u\]\e[32m@\h\e[0m[\t]:\w\n\$ "
+PS1="\e[31m\u\]\e[32m@\h\e[0m[\t]:\w\n\$ "
