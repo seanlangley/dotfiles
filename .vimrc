@@ -32,7 +32,7 @@ call vundle#end()            " required
 filetype plugin indent on    " required
 set number
 
-set mouse=a
+set mouse=r
 
 
 " Autosave
