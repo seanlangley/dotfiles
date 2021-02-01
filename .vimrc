@@ -12,6 +12,7 @@ Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin '907th/vim-auto-save'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
+Plugin 'preservim/nerdtree'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
