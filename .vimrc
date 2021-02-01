@@ -19,6 +19,7 @@ filetype plugin indent on    " required
 set number
 
 set mouse=r
+let NERDTreeShowHidden=1
 
 
 " Autosave
