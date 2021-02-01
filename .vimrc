@@ -10,6 +10,8 @@ Plugin 'tpope/vim-fugitive'
 Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 Plugin '907th/vim-auto-save'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()            " required
 
 filetype plugin indent on    " required
@@ -21,19 +23,6 @@ set mouse=r
 " Autosave
 let g:auto_save = 1 
 let g:auto_save_silent = 1 
-
-" Syntastic
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
-let g:syntastic_always_populate_loc_list = 1 
-let g:syntastic_auto_loc_list = 1 
-let g:syntastic_check_on_open = 1 
-let g:syntastic_check_on_wq = 0 
-" Syntastic
-
-
 
 set bg=dark
 let mapleader=","
@@ -50,7 +39,7 @@ set modelines=0
 let g:stylus_higher_contrast_ui = 0
 syntax on
 colorscheme slate
-let g:airline_theme = 'stylus'
+let g:airline_theme = 'minimalist'
 
 " This is what sets vim to use 24-bit colors. It will also work for any version of neovim
 " newer than 0.1.4.
