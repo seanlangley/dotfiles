@@ -9,6 +9,7 @@ alias home='cd ~'
 alias dt='cd ~/Desktop'
 alias gf='git fetch'
 alias gl='git log --pretty=oneline'
+alias gd='git diff'
 alias v='vim'
 PS1="\e[1;31m\u\\e[32m@\h\e[0m[\t]:\w\n\$ "
 LS_COLORS='di=01;36:ln=00;95'
