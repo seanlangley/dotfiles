@@ -20,6 +20,7 @@ set number
 
 set mouse=r
 let NERDTreeShowHidden=1
+nnoremap <C-l> :NERDTree<CR>
 
 
 " Autosave
