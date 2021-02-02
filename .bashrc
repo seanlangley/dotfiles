@@ -11,5 +11,6 @@ alias gf='git fetch'
 alias gl='git log --pretty=oneline'
 alias gd='git diff'
 alias v='vim'
-PS1="\e[1;32m\u\e[1;33m@\e[1;31m\h\e[0m[\t]:\w\n\$ "
+source ~/.git-prompt.sh
+PS1='\e[1;32m\u\e[1;33m@\e[1;31m\h\e[0m:\w [\t] $(__git_ps1 " (%s)")\n\$ '
 LS_COLORS='di=01;36:ln=00;95'
