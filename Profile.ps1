@@ -14,4 +14,4 @@ Function ga {git add}
 Function gf {git fetch}
 Function gc {git commit --verbose}
 Function gd {git diff}
-
+Function glg {git log --pretty=oneline}
