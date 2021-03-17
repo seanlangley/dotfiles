@@ -11,6 +11,8 @@ alias gs='git status'
 alias gp='git pull'
 alias ga='git add'
 alias gc='git commit --verbose'
+alias d='docker'
+alias k='kubectl'
 # Use next few lines to add git prompt to shell
 # Get git-prompt.sh here:
 # wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh ~/.git-prompt.sh
