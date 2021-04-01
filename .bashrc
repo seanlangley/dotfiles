@@ -18,5 +18,5 @@ alias k='kubectl'
 # wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh ~/.git-prompt.sh
 #source ~/.git-prompt.sh
 #PS1='\e[1;32m\u\e[1;33m@\e[1;31m\h\e[0m:\w [\t]$(__git_ps1 " (%s)")\n\$ '
-PS1='\e[1;32m\u\e[1;33m@\e[1;31m\h\e[0m:\w [\t]$\n\$ '
+PS1='\e[1;32m\u\e[1;33m@\e[1;31m\h\e[0m:\w [\t]\n\$ '
 LS_COLORS='di=01;36:ln=00;95'
