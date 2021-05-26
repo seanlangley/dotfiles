@@ -12,6 +12,7 @@ alias gp='git pull'
 alias ga='git add'
 alias gc='git commit --verbose'
 alias d='docker'
+alias dc='docker-compose'
 alias k='kubectl'
 # Use next few lines to add git prompt to shell
 # Get git-prompt.sh here:
