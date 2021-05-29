@@ -41,7 +41,7 @@ set softtabstop=4
 set modelines=0
 let g:stylus_higher_contrast_ui = 0
 syntax on
-colorscheme slate
+colorscheme desert
 let g:airline_theme = 'minimalist'
 
 " This is what sets vim to use 24-bit colors. It will also work for any version of neovim
