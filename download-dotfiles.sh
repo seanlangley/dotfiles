@@ -2,6 +2,7 @@
 
 curl -s https://raw.githubusercontent.com/seanlangley/dotfiles/main/.bashrc -o ~/.bash_aliases
 curl -s https://raw.githubusercontent.com/seanlangley/dotfiles/main/.vimrc -o ~/.vimrc
+curl -s https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh -o ~/.git-prompt.sh
 
 if [ ! -e ~/.bashrc ]; then
     touch ~/.bashrc
