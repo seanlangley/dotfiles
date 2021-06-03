@@ -14,6 +14,7 @@ alias gc='git commit --verbose'
 alias d='docker'
 alias dc='docker-compose'
 alias k='kubectl'
+alias fuck='cowsay \"FUCKKKKKKK!!!!!!\"'
 # Use next few lines to add git prompt to shell
 # Get git-prompt.sh here:
 # wget https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh ~/.git-prompt.sh
