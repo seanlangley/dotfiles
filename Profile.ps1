@@ -8,10 +8,17 @@ New-Alias -Name which -Value get-command
 New-Alias -Name open -Value invoke-item
 Function .. {cd ..}
 Function home {cd $HOME}
-Function gs {git status}
-Function gp {git pull}
-Function ga {git add}
-Function gf {git fetch}
-Function gc {git commit --verbose}
-Function gd {git diff}
-Function glg {git log --pretty=oneline}
+Function gs {git status $args}
+Function gp {git pull $args}
+Function ga {git add $args}
+Function gf {git fetch $args}
+Function gitc {git commit --verbose $args}
+Function gd {git diff $args}
+Function glg {git log --pretty=oneline $args}
+Function k {kubectl $args}
+Function d {docker $args}
+
+Import-Module posh-git
+Import-Module oh-my-posh
+Set-Theme Paradox
+Set-PSReadlineOption -BellStyle None
