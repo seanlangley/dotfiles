@@ -8,6 +8,7 @@ New-Alias -Name l -Value ls
 New-Alias -Name which -Value get-command
 New-Alias -Name open -Value invoke-item
 Function .. {cd ..}
+function proj {cd c:\Users\seanl\projects}
 Function home {cd $HOME}
 Function gs {git status $args}
 Function gp {git pull $args}
@@ -15,9 +16,10 @@ Function ga {git add $args}
 Function gf {git fetch $args}
 Function gitc {git commit --verbose $args}
 Function gd {git diff $args}
-Function glg {git log --pretty=oneline $args}
+Function gitl {git log --pretty=oneline $args}
 Function k {kubectl $args}
 Function d {docker $args}
+Function env {dir env:}
 
 # Adds git and theme to prompt
 Import-Module posh-git
