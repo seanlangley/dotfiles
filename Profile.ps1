@@ -24,6 +24,6 @@ Function env {dir env:}
 # Adds git and theme to prompt
 Import-Module posh-git
 Import-Module oh-my-posh
-Set-Theme Paradox
+set-poshprompt -theme honukai
 # Turn off annoying bell
 Set-PSReadlineOption -BellStyle None
