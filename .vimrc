@@ -38,6 +38,7 @@ set incsearch
 set smarttab
 set softtabstop=4
 set modelines=0
+set textwidth=80
 let g:stylus_higher_contrast_ui = 0
 syntax on
 colorscheme desert
