@@ -1,6 +1,7 @@
 alias c='cd'
 alias ..='cd ..'
 alias l='ls -lh'
+alias la='ls -lha'
 alias v='vim'
 alias home='cd ~'
 alias dt='cd ~/Desktop'
