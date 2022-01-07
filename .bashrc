@@ -42,7 +42,7 @@ bin() {
         fname=~/.trash/"$file"
         if [ -e "$fname" ]; then
             printf "%s exists. Replace? (enter or ^C)" "$fname"
-            read
+            read -r
             rm -rf "$fname"
         fi
         mv "$file" "$fname"
